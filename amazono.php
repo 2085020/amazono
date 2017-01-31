@@ -1,6 +1,5 @@
 <?php
-$botToken = "303282760:AAGg7ig2FZzLqNvMbATTOOi-U5yi_f1Fc98";
-$chat_id = "@amazono";
+include "config.php";
 $message = "Hola, saludos de amazono";
 $bot_url    = "https://api.telegram.org/bot$botToken/";
 $url = $bot_url."sendMessage?chat_id=".$chat_id."&text=".urlencode($message);
