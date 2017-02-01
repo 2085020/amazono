@@ -1,3 +1,6 @@
-<?php
-
-echo "Soy Amazono";
+<html>
+  <head>
+    
+  </head>
+  ˋ
+</html>
